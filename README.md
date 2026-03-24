@@ -37,7 +37,7 @@ Four PEs are arranged in a 2×2 mesh. Row elements of A enter from the left and 
 
 
 <img src="Images/systolic1.png" alt="systolic" width="450"/>
-### Processing Element (`pe.v`)
+## Processing Element (`pe.v`)
 
 Each PE is a registered MAC unit with explicit clock-enable, reset, and load-clear control:
 ```
