@@ -110,41 +110,6 @@ Without staggering, PE(1,1) — two hops from both feeds — would receive `a00`
 
 ---
 
-## Repository Structure
-```
-.
-├── rtl/
-│   ├── pe.v                   # Processing element — MAC unit
-│   ├── systolic_2x2.v         # 2×2 systolic array + FSM controller
-│   └── top_nexys4.v           # Top-level board integration
-├── constraints/
-│   └── nexys4ddr.xdc          # Pin assignments for Nexys 4 DDR
-├── sim/
-│   └── tb_systolic_2x2.v      # Testbench
-├── docs/
-│   ├── EC_systolic.pdf        # IEEE-format project report
-│   └── images/
-│       ├── systolic1.png      # Architecture diagram
-│       ├── TS1.png            # Time step 1
-│       ├── ts2.png            # Time step 2
-│       ├── ts3.png            # Time step 3
-│       ├── ts4.png            # Time step 4
-│       ├── schema.png         # Vivado synthesised schematic
-│       ├── laptop.jpeg        # Full board view
-│       └── board_closeup.jpeg # Artix-7 close-up
-└── README.md
-```
-
----
-
-## Hardware Requirements
-
-- Digilent Nexys 4 DDR development board (Xilinx Artix-7 XC7A100T-1CSG324C)
-- Xilinx Vivado Design Suite 2019.1 or later
-- USB-A to Micro-USB cable (for JTAG programming)
-
----
-
 ## Building and Programming
 
 **1. Clone the repository**
