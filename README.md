@@ -106,21 +106,7 @@ Without staggering, PE(1,1) — two hops from both feeds — would receive `a00`
 
 ✓ = PE accumulator reaches its final value for that C_ij element.
 
-### Time Step 1
-
-![Time Step 1](Images/TS1.png)
-
-### Time Step 2
-
-![Time Step 2](Images/ts2.png)
-
-### Time Step 3
-
-![Time Step 3](Images/ts3.png)
-
-### Time Step 4
-
-![Time Step 4](Images/ts4.png)
+<img width="1423" height="1154" alt="image" src="https://github.com/user-attachments/assets/eb7c86aa-a015-4327-96d0-c28b916a661b" />
 
 ---
 
