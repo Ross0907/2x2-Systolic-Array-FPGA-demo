@@ -108,19 +108,19 @@ Without staggering, PE(1,1) — two hops from both feeds — would receive `a00`
 
 ### Time Step 1
 
-![Time Step 1](docs/images/TS1.png)
+![Time Step 1](Images/TS1.png)
 
 ### Time Step 2
 
-![Time Step 2](docs/images/ts2.png)
+![Time Step 2](Images/ts2.png)
 
 ### Time Step 3
 
-![Time Step 3](docs/images/ts3.png)
+![Time Step 3](Images/ts3.png)
 
 ### Time Step 4
 
-![Time Step 4](docs/images/ts4.png)
+![Time Step 4](Images/ts4.png)
 
 ---
 
@@ -187,7 +187,7 @@ Flow Navigator → Run Synthesis → Run Implementation → Generate Bitstream
 
 Connect the Nexys 4 DDR via USB-JTAG, open Hardware Manager, and program the generated `.bit` file.
 
-![Vivado Hardware Manager](docs/images/laptop.jpeg)
+![Vivado Hardware Manager](Images/laptop.jpeg)
 
 ---
 
@@ -244,11 +244,11 @@ After press 5, the 7-segment display shows `05 04 04 05`, confirming C = [[5, 4]
 
 ### Vivado Schematic
 
-![Synthesised Schematic](docs/images/schema.png)
+![Synthesised Schematic](Images/schema.png)
 
 ### Hardware
 
-![Nexys 4 DDR — Artix-7 close-up](docs/images/board_closeup.jpeg)
+![Nexys 4 DDR — Artix-7 close-up](Images/IMG20260309102334.jpg.jpeg)
 
 ---
 
