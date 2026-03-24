@@ -34,13 +34,6 @@ Key inspiration: [https://deep-learning00.tistory.com/27](https://deep-learning0
 ## Architecture
 
 Four PEs are arranged in a 2×2 mesh. Row elements of A enter from the left and propagate rightward; column elements of B enter from the top and propagate downward. Each PE accumulates `a_in × b_in` and forwards both operands to its right and bottom neighbors on the same clock edge.
-```
-         b11        0
-          |          |
-a11 --> [PE(0,0)] --> [PE(0,1)]
-          |          |
- 0  --> [PE(1,0)] --> [PE(1,1)]
-```
 
 ![Systolic Array Architecture](docs/images/systolic1.png)
 
