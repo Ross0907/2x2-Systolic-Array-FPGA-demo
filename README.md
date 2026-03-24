@@ -35,8 +35,8 @@ Key inspiration: [https://deep-learning00.tistory.com/27](https://deep-learning0
 
 Four PEs are arranged in a 2×2 mesh. Row elements of A enter from the left and propagate rightward; column elements of B enter from the top and propagate downward. Each PE accumulates `a_in × b_in` and forwards both operands to its right and bottom neighbors on the same clock edge.
 
-![Systolic Array Architecture](Images/systolic1.png)
 
+<img src="Images/systolic1.png" alt="systolic" width="200"/>
 ### Processing Element (`pe.v`)
 
 Each PE is a registered MAC unit with explicit clock-enable, reset, and load-clear control:
