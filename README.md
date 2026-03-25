@@ -117,11 +117,6 @@ cd nexys4-systolic-array
 
 Launch Vivado, create a new RTL project targeting `xc7a100tcsg324-1`, and add all files from `rtl/` and `constraints/`.
 
-Alternatively, source the provided Tcl script if included:
-```tcl
-source scripts/create_project.tcl
-```
-
 **3. Run synthesis and implementation**
 
 In Vivado:
